@@ -37,9 +37,7 @@ git clone https://github.com/canozcivelek/auto-braking-rc-car.git
 Having already satisfied the prerequisites, software side of this project is now completed.
 
 #### Hardware
-As mentioned in the prerequisites section, you'll need an Arduino UNO, a breadboard, an ultrasonic sensor, a Hall Effect sensor, a magnet, some cables end external batteries. My setup can be seen in the small animation below.
-
-![]https://i.imgur.com/yMKoyPH.jpg)
+As mentioned in the prerequisites section, you'll need an Arduino UNO, a breadboard, an ultrasonic sensor, a Hall Effect sensor, a magnet, some cables end external batteries. Place the ultrasonic sensor at the very front of the car and connect its trig pin to Arduino pin 9, echo pin to Arduino pin 10, the GND pin to Arduino GND and 5V pin to Arduino 5V. As for the Hall effect sensor, connect its 5V and GND pins to Arduino 5V and GND, and its signal pin to Arduino pin 2. Finally, make connections from servo motor that controls the brakes to pin 5 for signal, and other two for 5V and GND again. To power the Arduino, use an external 9V battery. It turns out that servo should be powered separately as it requires too much power and it is highly recommended not to share the power source with Arduino. To power the servo motor, I used a 6V NiMh battery and made the following connections: battery GND (black cable) to Arduino GND, battery + (red cable) to servo red cable, servo digital (white) to Arduino pin 5.
 
 
 
