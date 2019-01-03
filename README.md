@@ -38,7 +38,8 @@ Having already satisfied the prerequisites, software side of this project is now
 
 #### Hardware
 As mentioned in the prerequisites section, you'll need an Arduino UNO, a breadboard, an ultrasonic sensor, a Hall Effect sensor, a magnet, some cables end external batteries. My setup can be seen in the small animation below.
-![](https://i.imgur.com/h7NFkG1.gif)
+
+![]https://i.imgur.com/yMKoyPH.jpg)
 
 
 
