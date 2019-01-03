@@ -45,6 +45,10 @@ As mentioned in the prerequisites section, you'll need an Arduino UNO, a breadbo
 
 ![Another Look](Pictures/slomoDemo.gif)
 
+---
+## Important Notes
+It should be noted that this RC car is a gas powered model and during development and testing of this project, the car's engine is never powered. The demos were done by simply psuhing the car manually with only brakes working. It shouldn't be used if normal use of the car is intended as the control of throttle servo which also controls brakes is at Arduino microcontroller.
+
 
 
       
