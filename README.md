@@ -43,7 +43,7 @@ As mentioned in the prerequisites section, you'll need an Arduino UNO, a breadbo
 
 [And this is a close up of how I used the Hall Effect sensor](Pictures/wheel.jpg)
 
-![](https://i.imgur.com/30qalCh.gif)
+![](https://imgur.com/30qalCh.gif)
 
 
 
