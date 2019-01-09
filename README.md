@@ -52,7 +52,7 @@ Upon inspecting [autoBrake.ino](autoBrake) file, it's first seen including the _
 The rest of the code consists of if checks to monitor the speed and distance ahead, and applying brakes when necessary. As monitored speed increases, braking distance also increases as there needs to be a greater gap to come to a full stop before a collision can occur. All the distance and speed combinations are tested several times and suits best with this particular setup. They are subject to change to whatever suits best for any other setup.
 
 ## Important Notes
-It should be noted that this particular model is gas powered and during development and testing of this project, the car's engine is never powered. The demos were done by simply pushing the car manually with only brakes working. It shouldn't be used if regular use of the car is intended as the control of throttle servo which also controls brakes is under Arduino microcontroller. This is a project that a made for self-improvement and educational purposes only.
+It should be noted that this particular model is gas powered and during development and testing of this project, the car's engine is never powered. The demos were done by simply pushing the car manually with only brakes working. It shouldn't be used if regular use of the car is intended as the control of throttle servo which also controls brakes is under Arduino microcontroller. This is a project that I made for self-improvement and educational purposes.
 
 
 
